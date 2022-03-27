@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Fahman | Web Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/minireset.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
+  </head>
+  <body>
+    <div id="wallpaper" class="wallpaper" data-image="images/austria.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="images/fah.jpg"
+            srcset="
+              images/fah.jpg    1x,
+              images/fah@2x.jpg 2x,
+              images/fah@3x.jpg 3x
+            "
+            alt="Portrait of Mohammed Fahman"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">Hi, I'm Mohammed Fahman</h1>
+        <p class="job">Web Developer</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            I spend my time mostly on coding and learning. Building web sites
+            for startups and businesses.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:mohammed1fahman.com"> Get in touch </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a>
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
+  </body>
+</html>
